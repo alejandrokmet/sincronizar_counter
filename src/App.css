@@ -1,0 +1,101 @@
+body{
+  background-color: silver;
+}
+ul{
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  color: white;
+}
+ul a{
+  text-decoration: none;
+  color: white;
+}
+nav{
+  width: 80%;
+  margin-top: 2rem;
+  padding: 0.5rem;  
+}
+.titulo{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-flow: row wrap;
+  text-align: center;
+  margin: auto;
+}
+.head{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  margin: auto;
+  background-color: black;
+  background-repeat: no-repeat;
+  background-position: center;
+
+}
+.head img{  
+  height: 1rem;
+  
+}
+.cardContainer{
+  display: flex;  
+  flex-flow: row  wrap;
+  justify-content: space-around;  
+  background-color: #313030;  
+}
+.card{
+  justify-content: center;
+  /*align-items: center;*/
+  text-align: center;
+  margin-bottom: 20px ;
+}
+h2{
+  color: white;
+  text-align: center;
+}
+
+.container-fluid{
+  border: 2px solid blue;
+  padding: 0.5rem;
+  border-radius: 10px;
+  font-weight: bolder;
+  
+}
+.col{
+  margin: auto;  
+}
+.btn{
+  font-weight: bolder;
+  font-size: + 10%;
+}
+#contadorCarrito {
+  position: absolute;
+  bottom: 1.5rem;
+  left: 2.5rem;
+  background-color: grey;
+  padding: .5rem;
+  border-radius: 50%;
+}
+.carritoNav{
+  position: relative;
+}
+.container{
+  display: flex;
+}
+.text-white .bg-info .list-group-item{
+  color: red !important;
+
+}
+.botoncarrito
+{
+  background-color: rgb(68, 67, 67);
+  color: red;
+
+}
+.card-body{
+
+  background-color: #444343;
+
+}
